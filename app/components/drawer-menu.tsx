@@ -41,14 +41,14 @@ export function DrawerMenu() {
     <DrawerContent className="px-6">
       <DrawerHeader className="flex items-center space-x-2">
       <Avatar>
-        <AvatarImage src="https://pbs.twimg.com/profile_images/1840631005469941762/VOKYAhbC_400x400.jpg" />
+        <AvatarImage src="https://pbs.twimg.com/profile_images/1849702756606672897/etAARDZo_400x400.jpg" />
         <AvatarFallback>UM</AvatarFallback>
       </Avatar>
         <div>
           <DrawerTitle className="font-semibold text-md text-left">Umemiya</DrawerTitle>
           <DrawerDescription className="text-left">
             <span className="text-sm">
-              Quantitative Developer
+              quantdev
             </span>
           </DrawerDescription>
         </div>
@@ -69,18 +69,6 @@ export function DrawerMenu() {
               <span className="ml-2">Writing</span>
             </div>
           </DrawerClose>
-          {/* <DrawerClose onClick={() => router.push('/book')} className={'text-left font-light '}>
-            <div className="flex items-center">
-              <BookMarked className="h-4 w-4" />
-              <span className="ml-2">Reading</span>
-            </div>
-          </DrawerClose>
-          <DrawerClose onClick={() => router.push('/project')} className={'text-left font-light '}>
-            <div className="flex items-center">
-              <Code className="h-4 w-4" />
-              <span className="ml-2">Project</span>
-            </div>
-          </DrawerClose> */}
           </div>
         </div>
         <hr className="h-[1px]" />

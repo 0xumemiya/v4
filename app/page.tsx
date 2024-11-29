@@ -5,20 +5,26 @@ export default function Page() {
   return (
     <section>
       <div className='mb-4'>
-        <p className="mb-4 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        Welcome to my personal blog. This website chronicles my journey in learning Quant Dev and will feature content related to finance, mathematics, and technology.
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Oke, bagaimana saya harus memberikan pidato pembukaan? :d. AGHHHH sudahlah.
         </p>
-        <p className="mb-4 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        You can read about what I have learned in the &apos;blogs&apos; section. Please note that what I have studied and written may not always be accurate, so remain skeptical of what you read. I also welcome feedback if you spot any errors in my blog posts.
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Saya tidak akan terlalu formar disini, website ini jga dibuat untuk mengisi waktu luang saja.
+          Jika tidak sedang bekerja, atau belajar sesuatu, yahh mungkin menulis disini.
         </p>
-        <p className="mb-4 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        I also plan to upload books that I have read and recommend. You can find them in the &apos;Books&apos; section.
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Website ini jga tidak akan sy monetisasi, jadi tidak ada iklan disini.
+          Juga mungkin akan sy blok dari index google, sehingga website ini tidak akan kalian temukan dimesin pencari :D. 
+          Yapps, itulah alasan kenapa sy memilih untuk menulis di website sendiri dari pada medium atau substack. 
+        </p>  
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Tentang topik bahasan?
         </p>
-        <p className="mb-4 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        There is also a &apos;Projects&apos; section, though I&apos;m not sure what to fill it with just yet. I’m still very new to this field.
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Mungkin sy akan banyak membahas miskonsepsi yang sering sy temui, dan juga keresahan yg sedang saya alami. Entahhlah, topiknya akan sangat acak.
         </p>
-        <p className="mb-4 font-light md:text-base text-[15px] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">
-        Lastly, I hope you can learn something new from this page. Cheers!
+        <p className="mb-4 font-light md:text-base leading-relaxed">
+          Saya berharap kalian bisa belajar hal baru di wesbite ini. Cheerss!
         </p>
       </div>
     </section>
