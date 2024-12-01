@@ -10,21 +10,20 @@ export default function Page() {
         </p>
         <p className="mb-4 font-light md:text-base leading-relaxed">
           Saya tidak akan terlalu formar disini, website ini jga dibuat untuk mengisi waktu luang saja.
-          Jika tidak sedang bekerja, atau belajar sesuatu, yahh mungkin menulis disini.
+          Jika tidak sedang bekerja atau belajar sesuatu, yahh mungkin menulis disini.
         </p>
         <p className="mb-4 font-light md:text-base leading-relaxed">
-          Website ini jga tidak akan sy monetisasi, jadi tidak ada iklan disini.
-          Juga mungkin akan sy blok dari index google, sehingga website ini tidak akan kalian temukan dimesin pencari :D. 
-          Yapps, itulah alasan kenapa sy memilih untuk menulis di website sendiri dari pada medium atau substack. 
+          Website ini juga tidak akan saya monetisasi, jadi tidak ada iklan disini.
+          Juga mungkin akan saya block dari index google, sehingga website ini mungkin tidak akan kalian temukan di search engine :D. 
         </p>  
         <p className="mb-4 font-light md:text-base leading-relaxed">
           Tentang topik bahasan?
         </p>
         <p className="mb-4 font-light md:text-base leading-relaxed">
-          Mungkin sy akan banyak membahas miskonsepsi yang sering sy temui, dan juga keresahan yg sedang saya alami. Entahhlah, topiknya akan sangat acak.
+          Mungkin saya akan banyak membahas miskonsepsi yang sering saya temui, dan juga keresahan yang sedang saya alami. Entahhlah, topiknya akan sangat random.
         </p>
         <p className="mb-4 font-light md:text-base leading-relaxed">
-          Itu saja kata pembukaan saya, serta sambutan ramahnya. Saya berharap kalian bisa belajar hal baru di wesbite ini. Cheerss!
+          Itu saja kata pembukaan dari saya, serta sambutan ramahnya. Saya berharap kalian bisa belajar hal baru di wesbite ini. Cheerss!
         </p>
       </div>
     </section>
