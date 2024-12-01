@@ -3,6 +3,12 @@ import { CustomMDX } from '@/app/components/mdx'
 import { formatDate, getBlogPosts } from '@/app/blog/utils'
 import { baseUrl } from '@/app/sitemap'
 import { TracingBeam } from '@/components/ui/tracing-beams'
+import { Spectral } from 'next/font/google'
+
+const spectral = Spectral({
+  weight: '400',
+  subsets: ['latin'],
+})
 
 export async function generateStaticParams() {
   let posts = getBlogPosts()
@@ -92,7 +98,7 @@ export default function Blog({ params } : { params: any }) {
           {formatDate(post.metadata.publishedAt)}
         </p>
       </div>
-      <article className="prose">
+      <article className={`prose ${spectral.className}`}>
         <CustomMDX source={post.content} />
       </article>
       {/* </TracingBeam> */}
