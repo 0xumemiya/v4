@@ -24,7 +24,7 @@ export default function Page() {
           Mungkin sy akan banyak membahas miskonsepsi yang sering sy temui, dan juga keresahan yg sedang saya alami. Entahhlah, topiknya akan sangat acak.
         </p>
         <p className="mb-4 font-light md:text-base leading-relaxed">
-          Saya berharap kalian bisa belajar hal baru di wesbite ini. Cheerss!
+          Itu saja kata pembukaan saya, serta sambutan ramahnya. Saya berharap kalian bisa belajar hal baru di wesbite ini. Cheerss!
         </p>
       </div>
     </section>
