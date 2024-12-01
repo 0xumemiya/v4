@@ -45,7 +45,7 @@
 }
 
 .tweet .react-tweet-theme p {
-  font-size: inherit;
+  font-size: medium;
   line-height: 1.3rem;
 }
 
@@ -67,5 +67,6 @@
 
 .tweet .react-tweet-theme .tweet-info_info__ll_kH .tweet-info-created-at_root__KaxZi {
   font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
