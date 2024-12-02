@@ -121,7 +121,7 @@ function slugify(str : any) {
 }
 
 export function createParagraph({ children } : any) {
-  return <p className="my-5 [blockquote_&]:my-2 md:font-light font-normal md:text-[1rem] text-[.95rem] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">{children}</p>;
+  return <p className="my-5 [blockquote_&]:my-2 md:font-light font-normal md:text-[1.2rem] text-[.95rem] leading-relaxed dark:text-[#a3a3a3] text-[#52525b]">{children}</p>;
 }
 
 export function H2({ children } : any) {

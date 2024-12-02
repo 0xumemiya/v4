@@ -24,7 +24,7 @@ export function BlogPosts() {
           >
               <div>
                 <p className="tracking-tight">
-                  <span className='border-b'>
+                  <span className='border-b text-base'>
                   {post.metadata.title}
                   </span>
                 </p>

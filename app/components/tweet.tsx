@@ -7,7 +7,10 @@ import {
   type TweetProps,
 } from "react-tweet";
 import { Caption } from "./caption";
+import { Inter } from "next/font/google";
 import "./tweet.css";
+
+const inter = Inter({subsets: ['latin']})
 
 interface TweetArgs {
   id: string;
@@ -39,8 +42,8 @@ export const ReactTweet = (props: TweetProps) => (
 
 export async function TweetComponent({ id, caption }: TweetArgs) {
   return (
-    <div className="tweet my-6 text-sm">
-      <div className={`flex justify-center`}>
+    <div className="tweet my-6">
+      <div className={`flex justify-center ${inter.className} text-sm`}>
         <ReactTweet id={id} />
       </div>
       {caption && <Caption>{caption}</Caption>}
